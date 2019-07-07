@@ -5,7 +5,7 @@ class circle:
     def area(self):
         area = pi * self.rad ** 2
         print('Area of the circle :', area)
-    def perimeter(self, radius):
+    def perimeter(self):
         perimeter = 2 * pi * self.rad
         print('Perimeter of the circle :', perimeter)
 
